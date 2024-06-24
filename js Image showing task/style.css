@@ -1,0 +1,89 @@
+
+.canvas{
+    margin:30px auto 50px;
+    width: 70vh;
+    align-items: center;
+    border: 2px solid black;
+    
+    
+}
+
+div.parent{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+   
+}
+
+ div.parent:hover {
+    transform: scale(1.05);
+} 
+
+span.button {
+    display: block;
+    text-align: center;
+}
+
+img {
+    justify-content: space-between;
+    width: 25vh;
+    border-radius: 10px;
+    border: 2px solid red;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 1200px) {
+    .canvas {
+        width: 80vh;
+    }
+
+    img {
+        width: 30vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .canvas {
+        width: 60vh;
+    }
+
+    img {
+        width: 35vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .canvas {
+        width: 50vh;
+    }
+
+    img {
+        width: 40vh;
+    }
+
+    div.parent {
+        margin: 15px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .canvas {
+        width: 90%;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    div.parent {
+        margin: 10px;
+        padding: 5px;
+    }
+}
